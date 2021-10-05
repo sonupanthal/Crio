@@ -63,6 +63,11 @@
 	      }
 	    }
 		});
+		  @media screen and (max-width:767px) {
+			html, body {
+			overflow: scroll;
+				}
+			}
 		$('.carousel-testimony').owlCarousel({
 			center: true,
 			loop: false,
