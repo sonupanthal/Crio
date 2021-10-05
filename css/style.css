@@ -8716,4 +8716,11 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 #footerText{
   display: none;
+  
+     @media screen and (max-width:767px) {
+        html, body {
+          overflow: hidden;
+        }
+        } 
+        /* added */
 }
