@@ -8717,10 +8717,11 @@ textarea.form-control {
 #footerText{
   display: none;
   
-     @media screen and (max-width:767px) {
-        html, body {
-          overflow: hidden;
-        }
-        } 
-        /* added */
+ <style>
+  @media screen and (max-width:767px) {
+html, body {
+	overflow: scroll;
+}
+}
+</style>
 }
